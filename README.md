@@ -4,7 +4,7 @@ Programming Assignment MOM1
 
 # How to make it go
 
-1) Start RabbitMQ in a docker container
+1) Start RabbitMQ in a docker container (This container will need 10'ish secs to spin up the rabbit inside, before you execute the next command)
 ```
 sudo docker run -d --name SomeAddRabbit -p 5672:5672 -p 15673:15672 rabbitmq:3-management
 ```
