@@ -1,6 +1,9 @@
-# SI_PA_MOM1
-Programming Assignment MOM1
+# Programming Assignment MOM1
 
+# what is it
+This is a repo containing an addspammer (travelagency) and an addreceiver (customer). Both apps are C# (dotnet core target 3.0) and setup up to run inside docker containers.<br>
+NB. Certain liberties were taken with regards to the design of the handin, namely the travelagency does not send adds for car/hotels/flights, but rather traveldestinations using a routingkey with the follow format <season><continent><budget>. The solution presented is based on the use of routingkey-topics as intended in the assignment. <br>
+Reason for doing this: I found it weird that the customer could just "pass" on a topic - so I switched it up \m/
 
 # How to make it go
 
